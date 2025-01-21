@@ -29,7 +29,7 @@ def initialize_llm():
 def initialize_vector_store():
     vector_store = TfidfVectorStore()
 
-    folder_path = "C:\\Python_Programs\\Swarmauri\\documents"
+    folder_path = "path to your folder containing txt files"
 
     documents = []
     for filename in os.listdir(folder_path):
